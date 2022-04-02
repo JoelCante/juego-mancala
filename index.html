@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Juguemos Mancala!</title>
+    <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- EDITANDO CODIGO PARA GITHUB -->
+    <header>
+        <div class="cabecera">
+            <figure class="new_game">
+                <img src="images/logo.png" alt="">
+            </figure>
+            
+            <button class="Boton" onclick="iniciar();" id="iniciar">
+              <p class="texto_btn">Iniciar Juego</p>
+            </button>
+        </div>
+          </header>
+
+
+
+          <div class="Tablero">
+
+            <div class="contenedorJug2 Pos6"></div>
+            <table>
+                  
+                <div class="cont">
+                   
+                <tr id="Fila-Jug2">
+                    <td class="casilla Pos5" id="color"></td>
+                    <td class="casilla Pos4" id="color"></td>
+                    <td class="casilla Pos3" id="color"></td>
+                    <td class="casilla Pos2" id="color"></td>
+                    <td class="casilla Pos1" id="color"></td>
+                    <td class="casilla Pos0" id="color"></td>
+                </tr>
+                <tr id="Fila-Jug1">
+                    <td class="casilla Pos0" id="colorv"></td>
+                    <td class="casilla Pos1" id="colorv"></td>
+                    <td class="casilla Pos2" id="colorv"></td>
+                    <td class="casilla Pos3" id="colorv"></td>
+                    <td class="casilla Pos4" id="colorv"></td>
+                    <td class="casilla Pos5" id="colorv"></td>
+                </tr>
+               
+               </div> 
+            </table>
+   
+            <div class="contenedorJug1 Pos6"></div>
+           </div>   
+    
+
+
+
+
+
+          <section class="marcador">
+            <div class="cont_marc">
+                
+                <div class="marcador_jug_uno">
+          
+                  
+                    
+                      <img src="images/avatar_1.png" alt="">
+                    
+                  
+                    <div id="jug1"><span id="Jug2">JugadorUno</span>
+                </div>
+                  
+              </div>
+                 
+              <div class="enmedio">
+                <figure class="fichas">
+                    <img src="images/fichas.png" alt="fichas de juego">
+                </figure>
+                <div class="text_turno" id=""> ¡Turno Jugador<div id="cont">1</div>!</div>
+              </div>
+                <div class="marcador_jug_dos">
+              
+                      <div id="jug2"><span id="Jug1">JugadorDos</span></div>
+                    
+             
+                        <img src="images/avatar_bot.png" alt="">  
+                 
+                </div>
+            
+            </div>
+            </section>          
+    
+            
+
+
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+            <script  src=""></script>
+</body>
+</html>

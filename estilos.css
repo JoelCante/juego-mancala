@@ -1,0 +1,352 @@
+*{
+    margin: auto;
+    padding:auto;
+    box-sizing: border-box;
+    
+    
+  }
+  
+  body{
+   /* background-color:#0e0b0b;*/
+   background-image: url(images/fondogame.svg);
+   background-position: center;
+   background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header{
+    margin: auto;
+    height: 160px;
+    width: auto;
+    background-color: #00000000;
+    backdrop-filter: blur(5px);
+  
+  }
+  
+  .cabecera{
+  margin: auto;
+  height: auto;
+  width: 1200px;
+  
+  }
+  
+  figure{
+    margin-left: 40px;
+    height: 79px;
+    width: 281px;
+  
+  }
+  
+  img{
+    margin-top: 49px;
+    height: auto;
+    width: 281px;
+  }
+  
+  .Boton{
+    margin-left: 850px;
+    border: 1px solid #CB3F3F;
+    border-radius: 26px;
+    background-color: #CB3F3F;
+    height: 52px;
+    width: 177px;
+  }
+  
+  .Boton:hover{
+    border: 1px solid #E97777;
+    background-color: #E97777;
+  
+  }
+  
+  .texto_btn{
+  margin: auto;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500px;
+  
+  }
+  
+
+  .Tablero {
+      margin-top: 60px;
+    text-align: center;
+      align-items: center;
+      background-color: #C09044;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 55px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.322);
+      height: 283px;
+      width: 750px;
+   
+  
+  }
+
+  table{
+    text-align: center;
+      align-items: center;
+      color: #0c2353;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .cont{
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+     
+  }
+  
+  .titulo{
+    font-weight: 600;
+    color: #956518;
+    padding: 10px;
+ 
+  }
+  
+  .contenedorJug1{
+    display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+    height: 210px;
+    width: 71px;
+    border-radius: 60px;
+    background-color: #956518;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.300) inset;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);
+    font-family: 'Mitr', sans-serif;
+    font-size: 30px;
+    color: #21BF46;
+  }
+  
+  .contenedorJug2 {
+    display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+    height: 210px;
+    width: 71px;
+    border-radius: 60px;
+    background-color: #956518;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.300) inset;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);
+    font-family: 'Mitr', sans-serif;
+    font-size: 30px;
+    color:#5771AF;
+  }
+  
+  #Fila-Jug2 {
+  text-align: center;
+    margin-bottom: 37px;
+    width: 541px;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+  
+  #Fila-Jug1{
+  
+    margin-top: 37px;
+      width: 541px;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .casilla {
+  
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mitr', sans-serif;
+    background-color: #956518;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.300) inset;
+  }
+  
+  
+  #color{
+    color:#5771AF;;  
+  }
+  
+  #colorv{
+    color:#21BF46; 
+  }
+  
+  .hacerclick{
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .hacerclick:hover {
+    background-color:  #ECE632;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #jug1,
+#jug2 {
+  width: 210px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #C4C4C4;
+  text-align: center;
+  
+  margin: 50px;  
+  
+}
+
+
+
+.Tur {
+  border-bottom: 5px solid  #ECE632;
+  padding-bottom: 10px;
+}
+
+
+
+.marcador{
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: auto;
+  text-align: center;
+
+  
+}
+
+.cont_marc{
+  padding: auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+ 
+}
+
+.marcador_jug_uno{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 95px;
+  width: 290px;
+
+}
+
+
+.marcador_jug_uno img{
+   margin: auto;
+   height: 60px;
+   width: 60px;
+  }   
+
+.marcador_jug_dos{
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 95px;
+width: 280px;
+
+}
+
+.marcador_jug_dos figure{
+  margin: auto;
+  height: 60px;
+  width: 60px;
+
+  }
+
+.marcador_jug_dos img{
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+
+.fichas{
+  margin: auto;
+  height: 38px;
+  width: 160px; 
+  padding-bottom: 50px; 
+
+  
+}
+
+.fichas img{
+  margin: auto;
+  height:auto ;
+  width: 100%;
+
+}
+
+.text_turno{
+width: 170px;
+height: auto;
+display: flex;
+flex-direction: row;
+font-family: 'Mitr', sans-serif;
+font-size: 19px;
+color: darkorange;
+
+}
+
+.enmedio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  
+  
