@@ -1,2 +1,6 @@
-# proyecto
- Version 1 
+# Mancala
+ Version 1
+ 
+ ###Proyecto de la asignatura de IA
+ 
+ *La IA aun no funciona :(*
