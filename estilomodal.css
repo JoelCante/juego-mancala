@@ -1,0 +1,152 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+#reg{
+    width: 100%;
+    height: 100%;
+    background-color: #00000013;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0%;  
+    display: none;
+    
+}
+
+#gan{
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    position: absolute;
+    top: 0%;  
+    display: none;
+}
+
+#gan2{
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    position: absolute;
+    top: 0%;  
+    display: none;
+}
+
+
+.contenedor_modal{
+    border-radius: 30px;
+    width: 450px;
+    height: 600px;
+    padding: 30px;
+    position: absolute;
+    background-color: #ffffffd3;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(5px);
+    font-size: 15px;
+    top: 5%;  
+    left: 32%;
+    display: grid;
+}
+
+.contenedor_mod{
+ 
+    border-radius: 30px;
+    width: 450px;
+    height: 600px;
+    padding: 15px;
+    position: absolute;
+    background-color: #FFFCF3;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(5px);
+    font-size: 15px;
+    top: 5%;  
+    left: 32%;
+    display: grid;
+    
+
+}
+
+
+
+.btn_rojo{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px;
+    background-color:  #CB3F3F;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn_rojo:hover{
+    background-color:  #ca6262;
+}
+
+#gif{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+.gif_con{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#texto_gan{
+    color: rgb(24, 61, 92);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cont_em{
+    width: 100%;
+    height: 20%;
+    background-color: #00000000;
+    position: absolute;  
+    top: 5%;
+    display: none;
+    
+}
+
+#cont_tur{
+    width: 100%;
+    height: 20%;
+    background-color: #00000000;
+    position: absolute;  
+    top: 5%;
+    display: none;
+}
+
+#cont_cap{
+    width: 100%;
+    height: 20%;
+    background-color: #00000000;
+    position: absolute;  
+    top: 5%;
+    display: none;
+}
+
+.emergente_modal{
+    border-radius: 25px;
+    width: 450px;
+    height: 150px;
+    padding: 30px;
+    position: absolute;
+    background-color: #ffffffa2;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(5px);
+    color: rgb(24, 61, 92);
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 15px;  
+    left: 32%;
+    display: grid;
+    
+
+}

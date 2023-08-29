@@ -48,8 +48,10 @@
     border: 1px solid #CB3F3F;
     border-radius: 26px;
     background-color: #CB3F3F;
-    height: 52px;
-    width: 177px;
+    height: 40px;
+    width: 110px;
+    margin: 10px;
+    cursor: pointer;
   }
   
   .Boton:hover{
@@ -61,18 +63,28 @@
   .texto_btn{
   margin: auto;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500px;
   
   }
   
+  .conte_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 300px;
+    margin-right: 100px;
+  }
+
 
   .Tablero {
       margin-top: 60px;
     text-align: center;
       align-items: center;
-      background-color: #C09044;
+      background-image: url(images/tablero.svg);
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -90,20 +102,12 @@
       align-items: center;
       color: #0c2353;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
       align-items: center;
   }
   
-  .cont{
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
   
-     
-  }
   
   .titulo{
     font-weight: 600;
@@ -126,6 +130,7 @@
     font-family: 'Mitr', sans-serif;
     font-size: 30px;
     color: #21BF46;
+  
   }
   
   .contenedorJug2 {
@@ -144,25 +149,26 @@
     color:#5771AF;
   }
   
-  #Fila-Jug2 {
+  #player2stones{
   text-align: center;
-    margin-bottom: 37px;
+    margin-top: 37px;
     width: 541px;
    display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+ 
   }
   
-  #Fila-Jug1{
+  #player1stones{
   
-    margin-top: 37px;
-      width: 541px;
-      display: flex;
+    margin-bottom: 37px;
+    width: 541px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
   
   }
   
@@ -184,7 +190,11 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.300) inset;
   }
   
-  
+  .casilla:hover{
+    border: 5px  darkorange solid;
+  }
+
+
   #color{
     color:#5771AF;;  
   }
@@ -193,39 +203,11 @@
     color:#21BF46; 
   }
   
-  .hacerclick{
+  .clicks{
     cursor: pointer;
     transition: background-color 0.2s;
   }
-  .hacerclick:hover {
-    background-color:  #ECE632;
-    color: white;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
@@ -236,8 +218,9 @@
   font-size: 14px;
   color: #C4C4C4;
   text-align: center;
-  
   margin: 50px;  
+  padding: 10px;
+  border-radius: 10px;
   
 }
 
